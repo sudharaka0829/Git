@@ -1,4 +1,4 @@
-code .                                                                                #To open visual studio code 
+code .                                                                                 #To open visual studio code 
 git init                                                                              #Initialize local git repository in the project folder 
 git config --global user.name 'sudharaka'                                             #add username to local repository
 git config --global user.email 'sudharaka8@gmail.com'                                 #add email to local repository
