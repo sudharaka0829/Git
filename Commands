@@ -1,0 +1,20 @@
+code . #To open visual studio code 
+git init #Initialize local git repository in the project folder 
+git config --global user.name 'sudharaka' #add username to local repository
+git config --global user.email 'sudharaka8@gmail.com' #add email to local repository
+git add file_name                                                                     #add file_name to staging area befor commit  | untracked to staging environment 
+git add .                                                                             #add all files to staging area befor commit 
+git rm --cached file_name                                                             #Remove file_name from staging area befor commit  
+git commit -m "first commit"                                                          #commit means save changers and we can undo it
+git branch branch_name                                                                #create a branch as branch_name
+git checkout                                                                          #change the brach
+git merge branch_name                                                                 # branches merge 
+git remote add origin git_url                                                         #add local repository to git repository
+git push -u origin master                                                             #push local repo to git repository
+
+git remote set-url                                                                    #change the github url for local repository
+git push -u origin master 
+git push 
+
+git clone git_url                                                                     #get git repository to local environment
+git pull                                                                              #get latest clone update from Github to local environment
